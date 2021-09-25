@@ -1,0 +1,126 @@
+:root {
+    --deep-blue: #010813;
+    --frost: #dadef5;   
+}
+
+::selection {
+    color:var(--frost);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: rgb(250, 244, 244);
+}
+
+h1,
+h2{
+    margin-bottom: 0.623rem;
+    color: var(--frost);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--frost);
+}
+header h1.page-title {
+    padding: 1rem 1.2rem;
+    font-size: 4.5rem; 
+}
+
+.header nav {
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+   justify-content: flex-start;
+}
+
+li {    
+    padding: 0px 35px;
+}
+
+a {
+    color: var(--frost);
+    display: flex;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 96%;
+    margin: 2rem auto;
+  }
+
+main section div figure {
+   margin: 5px 5px 5px 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}  
+video {
+    position: fixed;
+    z-index: -1;
+}
+
+.code-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 2 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    color: var(--frost);
+    outline: 2px solid var(--frost);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+  }
+
+.code-card .card-header {
+    position: relative;
+    color: var(--frost);
+    border: 2px solid var(--frost);
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+  box-shadow: inset 0px 0px 8px var(--deep-blue), 0 0 15px var(--frost);
+}
+  footer {
+    margin: 1.5rem;
+    text-align: center;
+  }
