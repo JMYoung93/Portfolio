@@ -330,9 +330,20 @@ transition: bottom 0.3s;
   color: white;
   box-shadow: none;
   border-color: white;
+  margin-bottom: 0;
 }
 
-.contact-form{
+.contact-link{
+  color: white;
+  font-size: 4rem;
+  margin-top: 0;
+}
+
+.social{
+  text-decoration: underline
+}
+
+/* .contact-form{
   width: 50rem;
   flex-direction:column ;
 }
@@ -359,7 +370,7 @@ transition: bottom 0.3s;
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
-}
+} */
 /* End of Section 4 */
 
 /* Responsive */
